@@ -1,5 +1,5 @@
 <phpunit bootstrap="./bootstrap.php" colors="true">
-        <testsuite name="Application" >
+        <testsuite name="CC" >
                 <directory>./library</directory>
                 <directory>./application</directory>
         </testsuite>
@@ -18,5 +18,4 @@
                 <log type="coverage-html" target="../logs/report" charset="UTF-8"
                 yui="true" highlight = "true" lowUpperBound="50" highLowerBound="80" />
         </logging>
-
 </phpunit>
