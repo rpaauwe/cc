@@ -1,5 +1,5 @@
 <phpunit bootstrap="./bootstrap.php" colors="true">
-        <testsuite name="Application" >
+        <testsuite name="CC" >
                 <directory>./library</directory>
                 <directory>./application</directory>
         </testsuite>
