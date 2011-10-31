@@ -3,12 +3,13 @@
     <div class="page-header"><h1>Title of Casts</h1></div>
     <div class="row">
         <div class="span11">
-            <a href="/casts/sample.mov"
-               style="z-index:1;display:block;width:640px;height:390px;margin-bottom:9px;"
-               id="player">
-            </a>
+            <div style="z-index:1;width:640px;height:390px;margin-bottom:9px;" id="player"></div>
             <!-- this will install flowplayer inside previous A- tag. -->
-            <script>flowplayer("player", "/swf/flowplayer-3.2.7.swf");</script>
+            <script>flowplayer(
+                    "player",
+                    {src: "/swf/flowplayer-3.2.7.swf", wmode: 'opaque'},
+                    {clip: {url: "/casts/sample.mov", autoPlay: false}}
+                );</script>
         </div>
     </div>
     <div class="row">
