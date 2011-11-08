@@ -1257,6 +1257,9 @@ table .headerSortUp.purple, table .headerSortDown.purple {
   font-weight: 200;
   line-height: 1;
 }
+.brand {
+ font-family: courier, sans-serif;
+}
 .topbar p {
   margin: 0;
   line-height: 40px;
